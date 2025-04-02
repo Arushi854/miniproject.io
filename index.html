@@ -53,6 +53,10 @@
             height: 250px;
             object-fit: cover;
             margin-right: 20px;
+             transition: transform 0.3s ease;
+        }
+        .hero img:hover {
+            transform: scale(1.1);
         }
         .hero-text {
             max-width: 600px;
@@ -69,6 +73,11 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             width: 45%;
             text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
         }
         .contact-form {
             display: flex;
